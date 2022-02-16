@@ -26,7 +26,7 @@ But with many other features available with this API.
 
 ### Heroku Deployment
 
-makai-guide.herokuapp.com/
+https://makai-guide.herokuapp.com/
 
 <!-- ### Routes
 
