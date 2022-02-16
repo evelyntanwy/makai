@@ -1,18 +1,15 @@
-const path = require('path')
-const express = require('express')
+const path = require("path");
+const express = require("express");
 
-const helloRoutes = require('./routes/hello')
+const welcome = require("./routes/welcome");
+const recipes = require("./routes/recipes");
 
-const server = express()
+const server = express();
 
-server.use(express.static(path.join(__dirname, 'public')))
-server.use(express.json())
+server.use(express.json());
+server.use(express.static(path.join(__dirname, "./public")));
 
-server.use('/api/v1/hello', helloRoutes)
+server.use("/api/v1/welcome", welcome);
+server.use("/api/v1/recipes", recipes);
 
-// for browser router (react-router-dom)
-server.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'))
-})
-
-module.exports = server
+module.exports = server;
