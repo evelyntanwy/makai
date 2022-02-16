@@ -24,6 +24,10 @@ npm run dev
 I'm using the API from https://www.edamam.com/ with the Recipe Search API. Creating an account with them as a developer allows me to have a certain limit of clicks per minute.
 But with many other features available with this API.
 
+### Heroku Deployment
+
+makai-guide.herokuapp.com/
+
 <!-- ### Routes
 
 | Method     | Destination |  |
