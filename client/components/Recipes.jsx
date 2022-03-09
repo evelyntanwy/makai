@@ -89,7 +89,12 @@ function Recipes() {
       </Carousel>
       <Form.Group controlId="foodSelection">
         <Form.Label id="search">Find the food : </Form.Label>
-        <input type="text" value={search} onChange={handleChange} />
+        <input
+          type="text"
+          value={search}
+          onChange={handleChange}
+          placeholder="eg: Chicken"
+        />
         <button onClick={handleClick}>Fill ma belly</button>
       </Form.Group>
       <br />
