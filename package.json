@@ -1,9 +1,8 @@
 {
-  "name": "rest-apis",
+  "name": "makai",
   "version": "0.2.0",
-  "repository": "https://github.com/hihi-2021/code.from-class.git",
+  "repository": "https://github.com/evelyntanwy/makai.git",
   "main": "server/index.js",
-  "author": "EDA",
   "license": "MIT",
   "scripts": {
     "build": "webpack --config ./client/webpack.config.js",
@@ -40,7 +39,9 @@
     "sqlite3": "^4.2.0",
     "node-fetch": "^3.2.0",
     "npm-run-all": "^4.1.5",
-    "superagent": "^5.2.2"
+    "superagent": "^5.2.2",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/user-event": "^13.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",

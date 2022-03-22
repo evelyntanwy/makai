@@ -39,7 +39,7 @@ function Recipes() {
   };
 
   return (
-    <>
+    <div data-testid="recipe-1">
       <Navbar bg="dark" variant="dark" fixed="top">
         <Container>
           <Navbar.Brand href="#home">māKai</Navbar.Brand>
@@ -115,7 +115,7 @@ function Recipes() {
           </Col>
         ))}
       </Row>
-    </>
+    </div>
   );
 }
 
