@@ -39,7 +39,7 @@ function Recipes() {
   };
 
   return (
-    <div data-testid="recipe-1">
+    <div data-testid="recipe-form">
       <Navbar bg="dark" variant="dark" fixed="top">
         <Container>
           <Navbar.Brand href="#home">māKai</Navbar.Brand>
