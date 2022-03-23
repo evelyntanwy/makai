@@ -18,7 +18,6 @@ function App() {
         <div className="nose"></div>
         <div className="tail"></div>
         <div className="body"></div>
-        {/* <div className="patch"></div> */}
         <div className="bubble"></div>
       </div>
     </div>
