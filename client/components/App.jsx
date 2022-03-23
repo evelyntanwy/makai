@@ -1,23 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
-import { getWelcome } from "../api";
-// import Cat from "./Cat";
 import Recipes from "./Recipes";
 
 function App() {
-  const [welcomeStatement, setWelcomeStatement] = useState("");
-
-  useEffect(() => {
-    getWelcome()
-      .then((res) => {
-        setWelcomeStatement(res.statement);
-        return null;
-      })
-      .catch((err) => {
-        console.error(err.message);
-      });
-  });
-
   return (
     <div className="container">
       <h1>Kia Ora!</h1>
